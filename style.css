@@ -1,0 +1,136 @@
+#title{
+    background-color: #ff4c68;
+    padding-bottom: 7%;
+}
+.head1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    line-height: 140%;
+}
+.head1{
+    color: white;
+}
+
+.navbar-brand{
+   font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+#navb{
+    padding-top: 3%;
+    padding-bottom:7%;
+}
+.nav-item{
+    padding-right: 5%;
+    font-size: larger;
+}
+
+.down-btn{
+    margin-top: 10%;
+}
+.phn-img{
+    position: absolute;
+    z-index: 2;
+    transform: rotate(25deg);
+    right: 15%;
+  
+}
+#features{
+    padding: 7% 15%;
+    position:absolute;
+    z-index: 1;
+}
+
+.box{
+    text-align: center;
+}
+p{
+    color: #8f8f8f;
+}
+#boxi{
+    color: #ef817e;
+    margin-bottom: 5%;
+}
+#boxi:hover{
+    color: #ff4c68;
+}
+.top{
+    padding-bottom: 10%;
+}
+
+#testimonials{
+    background-color: #ef817e;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    color: white;
+    
+}
+#press{
+    background-color: #ef817e;
+   text-align: center;
+   padding-bottom: 3%;
+}
+
+.dog{
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+}
+.logo{
+    width: 50%;
+    height: 80%;
+}
+#head2{
+    line-height: 3rem;
+}
+.lady{
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+}
+#pricing{
+    text-align: center;
+    padding: 10%;
+    padding-left: 15%;
+}
+#prihead{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+}
+#cta{
+    background-color:#ff4c68;
+   padding: 10%;
+}
+#ctah{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    line-height: 1.5;
+    text-align: center;
+    color: white;
+
+}
+#footer{
+    padding: 5%;
+    text-align: center;
+    
+}
+#features{
+    background-color: white;
+    position: relative;
+    z-index: 2;
+}
+.card{
+   margin-left: 30%;
+   margin-bottom: 5%;
+}
+@media screen and (max-width:1028px){
+    .phn-img{
+        position: static;
+        transform: none;
+    }
+    #title{
+        text-align: center;
+    }
+}
